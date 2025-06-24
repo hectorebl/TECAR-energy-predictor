@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Cargar el modelo entrenado
-modelo = joblib.load('modelo_tecar.pkl')
+modelo = joblib.load('modelo_xgboost_tecar.pkl')
 
 st.title("Predicción de Energía TECAR (KJ)")
 
